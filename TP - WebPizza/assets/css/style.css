@@ -1,0 +1,107 @@
+/**
+ * Header
+ * ---------- */
+
+.main-header {
+    background-color: #c00a27;
+}
+
+/* menu items */
+.main-header .nav-link {
+    color: rgba(255, 255, 255, .6);
+    text-transform: uppercase;
+    transition: all .3s;
+}
+.main-header .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* cart item */
+.main-header .cart .nav-link {
+    background-color: #8ca93e;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 10px;
+} 
+
+
+/**
+ * Carousel
+ * ---------- */
+
+/* Slide du carousel */
+.carousel-item {
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/**
+ * Featured Products
+ * ---------- */
+.main-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.tile {
+    background-color: red;
+
+    /* dimensions et marge */
+    height: 160px;
+    margin-bottom: 24px;
+
+    /* Image d'arriere plan */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* texte */
+    color: rgba(255, 255, 255, .8);
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 160px;
+    transition: all .3s;
+
+    overflow: hidden;
+}
+.tile:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.tile span {
+    line-height: 3rem !important;
+}
+
+.tile-big {
+    height: 344px; /* (2 x 160px + 24px) */
+    line-height: 344px;
+}
+
+.tile-pizza {
+    background-image: url('../images/tile-1.jpg');
+}
+.tile-salads {
+    background-image: url('../images/tile-2.jpg');
+}
+.tile-desserts {
+    background-image: url('../images/tile-3.jpg');
+}
+.tile-caffee {
+    background-image: url('../images/tile-4.jpg');
+}
+
+/**
+ * Footer
+ * ---------- */
+.main-footer {
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
